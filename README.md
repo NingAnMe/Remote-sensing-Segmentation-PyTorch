@@ -1,2 +1,2 @@
-# Python-image-segmentation
-图像分割相关代码总结
+# Remote-sensing-Segmentation-PyTorch
+遥感图像分割实战
