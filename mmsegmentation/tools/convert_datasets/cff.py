@@ -29,6 +29,7 @@ def main():
             if not os.path.isdir(d_path):
                 os.makedirs(d_path)
     for x, y in zip(x_train, y_train):
+
         os.symlink(os.path.join(args.cff_path, 'img_train', x), os.path.join(args.cff_path, 'img', 'train'))
         os.symlink(os.path.join(args.cff_path, 'lab_train', x), os.path.join(args.cff_path, 'label', 'train'))
     
